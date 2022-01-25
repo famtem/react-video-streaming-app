@@ -1,0 +1,133 @@
+htmll {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  main {
+    padding: 0;
+    display: flex;
+    background: 333;
+    min-height: 100vh;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .video-player {
+    max-width: 750px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .video {
+    width: 100%;
+  }
+  
+    .player-controls {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    transform: translateY(100%) translateY(-5px);
+    transition: 0.3s;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, 0.6);
+  } 
+  
+  .video-player:hover .player-controls {
+    transform: translateY(0);
+  } 
+  
+  .play-button {
+    width: 10%;
+    border: none;
+    background: black;
+    color: white;
+    padding: 10px;
+  }
+  
+  .play-button:focus {
+    outline: none;
+  }
+
+  .pause-button {
+    width: 10%;
+    border: none;
+    background: black;
+    color: white;
+    padding: 10px;
+  }
+  
+  .pause-button:focus {
+    outline: none;
+  }
+  
+  .stop-button {
+    width: 10%;
+    height: 30px;
+    font-size: 20px;
+    border: none;
+    background: black;
+    color: white;
+    padding: 10px;
+  }
+  
+  .stop-button:focus {
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .rewind-button {
+    width: 10%;
+    border: none;
+    background: black;
+    color: white;
+    padding: 10px;
+  }
+  
+  .rewind-button:focus {
+    outline: none;
+  }
+  .fast-button {
+    width: 10%;
+    border: none;
+    background: black;
+    color: white;
+    padding: 10px;
+  }
+  
+  .fast-button:focus {
+    outline: none;
+  }
+
+  .full-screen {
+    width: 10%;
+    border: none;
+    background: black;
+    color: white;
+    padding: 10px;
+  }
+  
+  .full-screen:focus {
+    outline: none;
+  }
+  
+  
+  .controlsIcon {
+    width: 20;
+    height: 20px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+   
+  }
+  
+  
+  
